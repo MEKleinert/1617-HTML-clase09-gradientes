@@ -1,0 +1,24 @@
+
+body {
+    background: rgb(118,121,9);
+    background: linear-gradient(90deg, rgba(118,121,9,1) 4%, rgba(30,36,0,1) 49%, rgba(0,212,255,1) 100%);
+}
+
+/* creando colores root: cada color va a tener un alias, ya no necesitamos llamarlos con el código rgb */
+
+:root {
+    --main-dark: #522746;
+    /* --main-dark-darker: #310222;
+    --main-dark-lighter: #aa6296; */
+    --main-medium: #CC3B6E;
+    --main-light: #9D99A5;
+    --main-alternate-light: #9989A4;
+}
+
+h1 {
+    color: var(--main-light);
+}
+
+p {
+    color: var(--main-alternate-light);
+}
